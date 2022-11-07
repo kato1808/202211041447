@@ -6,7 +6,7 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="App">
-      <PrimaryButton>テスト!</PrimaryButton>
+      <PrimaryButton>テスト</PrimaryButton>
       <SecondaryButton>検索</SecondaryButton>
       <br />
       <SearchInput />
