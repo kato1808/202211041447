@@ -1,24 +1,20 @@
 import styled from "styled-components";
 
-export const UserCard = () => {
+export const UserCard = (props) => {
+  const { user } = props;
   return (
     <div>
-      <img
-        height={160}
-        width={160}
-        src="https://www.pasco.co.jp/calendar/images/PASCO_2022-11_1920x1080.jpg"
-        alt="プロフィール"
-      />
-      <p>名前</p>
+      <img height={160} width={160} src={user.img} alt={user.name} />
+      <p> {user.name} </p>
       <SDl>
         <dt>メール</dt>
-        <dd>123456@pasco.com</dd>
+        <dd>{user.email}</dd>
         <dt>電話</dt>
-        <dd>080-1074-7397</dd>
+        <dd>{user.phone}</dd>
         <dt>会社名</dt>
-        <dd>株式会社パスコ</dd>
+        <dd>{user.company.name}</dd>
         <dt>ホームページ</dt>
-        <dd>https:pasco.com</dd>
+        <dd>{user.website}</dd>
       </SDl>
     </div>
   );
