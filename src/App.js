@@ -10,7 +10,7 @@ const user = {
   name: "加藤裕幸",
   img: "https://www.pasco.co.jp/calendar/images/PASCO_2022-11_1920x1080.jpg",
   email: "123456@pasco.com",
-  phone: "080-12345-1235",
+  phone: "080-12345-1234",
   company: {
     name: "テスト株式会社"
   },
