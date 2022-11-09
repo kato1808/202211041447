@@ -20,7 +20,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <PrimaryButton>テスト!</PrimaryButton>
+        <PrimaryButton>テスト!!</PrimaryButton>
         <SecondaryButton>検索</SecondaryButton>
         <br />
         <SearchInput />
