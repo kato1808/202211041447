@@ -6,7 +6,7 @@ import { Input } from "../atoms/input/Input";
 export const SearchInput = () => {
   return (
     <SCotainer>
-      <Input placeholder="検索条件を入力" />
+      <Input placeholder="検索条件を入力！！" />
       <SBouttnWrapper>
         <PrimaryButton>検索</PrimaryButton>
       </SBouttnWrapper>
