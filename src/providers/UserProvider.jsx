@@ -4,7 +4,7 @@ export const UserContext = createContext({});
 
 export const UserProvider = (props) => {
   const { Children } = props;
-  const contextName = "加藤";
+  const contextName = "abs";
   return (
     <UserContext.Provider value={{ contextName }}>
       {Children}
