@@ -3,11 +3,11 @@ import React, { createContext } from "react";
 export const UserContext = createContext({});
 
 export const UserProvider = (props) => {
-  const { Children } = props;
-  const contextName = "abs";
+  const { children } = props;
+  const contextName = "加藤";
   return (
     <UserContext.Provider value={{ contextName }}>
-      {Children}
+      {children}
     </UserContext.Provider>
   );
 };
